@@ -3,8 +3,8 @@
 Group Name: __Fill your team name__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
+1. ADHAM HARITH BIN ZAHARI 2213945
+2. ADAM HARITH BIN ABDUL RAHIM 2218641
 3. __Fill name__ and __matric no__
 
 ## Rules
