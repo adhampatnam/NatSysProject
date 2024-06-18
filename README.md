@@ -57,9 +57,12 @@ https://github.com/adhampatnam/NatSysProject
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** Ubuntu
 2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
+2 cores, 4 GB RAM, 32 GB SSD
+4 cores, 8 GB RAM, 64 GB SSD
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+ensures that our changes are saved
 
 ## Exploring the Terminal
 
