@@ -329,7 +329,8 @@ root@f65be1987f84:~# nano helloworld.txt
 
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
 
-6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
+6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?docker pull debian
+docker run --detach -it debian
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
 
@@ -355,8 +356,9 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
+ No. This is because when a container is stopped and removed, any data stored in the container’s writable layer is lost.
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
-
+ yes
 ## Running your own container with persistent storage
 
 1. In the previous experiment, you might have notice that containers are not persistent. To make storage persistent, you will need to mount them. 
